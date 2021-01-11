@@ -1,0 +1,44 @@
+.container {
+  background-color: #fa965c;
+  min-height: 92vh;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-content: center;
+  gap: 20px;
+}
+
+.item {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  max-width: 20rem;
+  max-height: 20rem;
+  background-color: #fae475;
+}
+
+.item__title {
+  font-size: 2em;
+}
+.item__price {
+  font-size: 1.5em;
+}
+
+.item_img {
+  width: 10em;
+  height: 10em;
+}
+
+.add {
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+
+  width: 10em;
+  height: 2em;
+
+  background-color: rgb(39, 224, 39);
+  font-size: 1.1em;
+}

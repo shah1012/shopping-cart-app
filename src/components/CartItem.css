@@ -1,0 +1,37 @@
+.cartItem__div {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+  min-width: 40vh;
+  max-height: 5em;
+
+  margin-bottom: 20px;
+
+  background-color: #fae475;
+}
+
+.cartItem__img {
+  width: 5em;
+  height: 5em;
+}
+
+.cartItem__title {
+  font-size: 2em;
+}
+
+.cartItem__div > button {
+  width: 5em;
+  height: 3em;
+
+  border: none;
+  outline: none;
+
+  font-size: 1em;
+
+  background-color: #ed5858;
+  color: white;
+  border-radius: 10px;
+}
